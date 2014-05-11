@@ -20,3 +20,5 @@ plugins/ti.alloy/hooks/alloy.js
 .settings/com.appcelerator.titanium.ios.core.prefs
 
 .settings/com.appcelerator.titanium.android.core.prefs
+
+.project
