@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow class="container">
+		<ImageView id="photo"/>
+		<Label id="headline"/>
+	</TableViewRow>
+</Alloy>

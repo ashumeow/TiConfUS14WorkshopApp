@@ -1,0 +1,19 @@
+
+".container" : {
+  
+}
+
+"TableViewRow" : {
+	height: 60
+}
+
+"#photo" : {
+	left: 15,
+	width: 40,
+	height: 40
+}
+
+"#headline" : {
+	left: 65,
+	color: "#000"
+}

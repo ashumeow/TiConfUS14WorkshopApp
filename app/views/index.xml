@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container">
+		<View id="titleBar">
+			<Button platform="ios" id="back" onClick="goBack" visible="false">Back</Button>
+			<Label id="titleText">TiDev News</Label>
+			</View>-->
+
+			<ScrollableView id="scrollableView">
+				<TableView id="newsTable" onClick="viewArticle">
+					<Widget id="ptr" platform="ios" src="nl.fokkezb.pullToRefresh" onRelease="pullToRefresh" />
+
+				</TableView>
+				<View>
+					<WebView id="articleView"/>
+				</View>
+			</ScrollableView>
+
+
+	</Window>
+</Alloy>
